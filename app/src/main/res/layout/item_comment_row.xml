@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_marginEnd="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:paddingTop="5dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:id="@+id/textView_text"
+            android:textColor="@color/abc_primary_text_material_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_text"
+            android:layout_alignLeft="@+id/textView_text"
+            android:paddingTop="5dp"
+            android:textSize="12sp"
+            android:text="Medium Text"
+            android:id="@+id/textView_date" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Imagine</string>
+    <string name="action_inbox">Inbox</string>
+    <string name="title_activity_inbox">Direct</string>
+    <string name="title_activity_comment">Comments</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Registration</string>
+    <string name="title_activity_account">My account</string>
+</resources>
