@@ -39,6 +39,9 @@ public class MainActivity extends Activity {
         tvWelcome.setText(session.getEmail());
         if(USER_ID==0){USER_ID=session.getUserId();}
         if(USER_NAME==null){USER_NAME=session.getUsername();}
+        if(USER_NAME==null || USER_NAME.length()<1){USER_NAME="someone";}
+        Log.i("USER_ID", ""+USER_ID);
+        Log.i("USERNAME", USER_NAME);
 
         RichBottomNavigationView botNav = (RichBottomNavigationView)
                 findViewById(R.id.bottom_navigation);
